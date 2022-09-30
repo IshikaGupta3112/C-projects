@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin:0px;
+                padding:0px;
+                background-image:url('image.jpg');
+                background-size:3000px 2000px;
+                background-repeat: no-repeat;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style:bold;
+                /* font-family:'baloo bhai'; */
+            }
+            .left{
+                display:inline-block;
+                position:absolute;
+                top:20px;
+                left:34px;
+               
+            }
+            .left img{
+                width:230px;
+                filter:invert(100%);
+            }
+            .left div{
+               color:white;
+                text-align: center;
+               line-height: 25px;
+               font-size: 25px;
+            }
+            .right{
+                display:inline-block;
+                position:absolute;
+                top:20px;
+                   right:34px;
+            }
+            .btn{
+                margin:8px;
+                padding:15px;
+                border-radius: 15px;
+                background-color: black;
+                color: white;
+                font-size: 25px;
+                cursor:pointer;
+               margin-top: 15px;
+
+            }
+            .btn:hover{
+                color:grey;
+            }
+            .mid{
+                display:block;
+                width:33%;
+                margin:20px auto;
+            }
+            .navbar li{
+             display:inline-block;
+             font-size:35px;
+             margin:25px;
+            }
+            .navbar li a{
+                color:white;
+                text-decoration: none;
+            }
+            .navbar li a:hover{
+                color:grey;
+                text-decoration: underline;
+            }
+            .cont{
+                margin-top:100px;
+                margin-left:2200px;
+                color:white;
+                text-align: center;
+                
+            }
+            .forms input{
+                display:block;
+                border-radius:15px;
+                margin:10px;
+                font-size:25px;
+                padding:20px;
+                width:550px;
+                margin:20px auto;
+            }
+        </style>
+        <title>
+        gym for fitness
+    </title>
+    </head>
+    <body>
+     <header>
+        <div class="left">
+            <img src="logo2.jpg" >
+            <div>ISHIKA'S FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href ="#">Home</a></li>
+                <li><a href ="#">About Us</a></li>
+                <li><a href ="#">Fitness Calculator</a></li>
+                <li><a href ="#">Contact us</a></li>
+            </ul>
+           
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button> 
+           <button class="btn">Email Us</button> 
+        </div>
+     </header>
+     <div class="cont">
+    <h1>Join Us Now</h1>
+    <form action="noaction.php">
+        <div class="forms">
+            <input type="text" placeholder="Enter your Name">            
+            <input type="text" placeholder="Enter your Age">            
+            <input type="text" placeholder="Enter your Gender">            
+            <input type="text" placeholder="Enter your Contact no.">            
+            <input type="text" placeholder="Enter your Email Id">            
+            <input type="text" placeholder="Enter your Locality">            
+
+        </div>
+        <div class="one">
+            <button class="btn">SUBMIT</button>
+        </div>
+    </form>
+     </div>
+    </body>
+</html>
